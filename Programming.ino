@@ -19,10 +19,10 @@ char value;// Data Type(Value)= Character set/String Variable
 void setup()
 {
   //Set initial speed of the motor & stop
-  motor1.setSpeed(150);//to set the speed of motor but writing release prevent the acciedental acceleration of motor
+  motor1.setSpeed(255);//to set the speed of motor but writing release prevent the acciedental acceleration of motor
   motor1.run(RELEASE);
 
-  motor2.setSpeed(150);
+  motor2.setSpeed(255);
   motor2.run(RELEASE);
                                                                          //____________________________________________________________
   Serial.begin(9600);//to establish communication with bluetooth.          while uploading code remove Tx and Rx then plug them in again
